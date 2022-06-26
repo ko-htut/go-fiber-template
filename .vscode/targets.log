@@ -1,0 +1,546 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-pc-mingw32
+ 
+
+# Make data base, printed on Sun Jun 26 21:45:48 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+PROVIDE_FULLSTACK_ACTION = true
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+HOMEDRIVE = C:
+# automatic
+@F = $(notdir $@)
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# makefile
+CURDIR := d:/Project/Self Project/FastShare/backend
+# 
+ default
+SHELL := sh.exe
+# environment
+WINDIR = C:\Windows
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+NVM_HOME = C:\Users\hotru\AppData\Roaming\nvm
+# environment
+WALLABY_PRODUCTION = true
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# makefile (from `makefile', line 1)
+MAKEFILE_LIST :=  makefile
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# environment
+TMP = C:\Users\hotru\AppData\Local\T 
+emp
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# makefile (from `makefile', line 6)
+DATABASE_URL = postgres://postgres:password@cgapp-postgres/postgres?sslmode=disable
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+NVM_SYMLINK = C:\Program Files\nodejs
+# environment
+PROGRAMDATA = C:\ProgramData
+# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-0c1c0c95-b7ac-4bd4-81fc-020b4cfc5b9d-sock
+# environment
+VSCOD 
+E_CWD = D:\Project\Self Project\FastShare\backend
+# environment
+GOPROXY = https://proxy.golang.org,direct
+# environment
+PATH = C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\hotru\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Git\cmd;C:\Program Files (x86)\gsudo\;C:\Program Files\Go\bin;C:\Program Files\dotnet\;C:\Program Files (x86)\GnuWin32\bin;C:\Program Files\LLVM\bin;C:\proto\bin;C:\Program Files\GitHub CLI\;C:\Program Files (x86)\glab;C:\Users\hotru\AppData\Local\Yarn\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\ngrok;C:\mongodb shell\bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\hotru\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files (x86)\gsudo\;C:\Program Files\Go\bin;C:\Program Files\dotnet\;C:\Program Files (x86)\GnuWin32\bin;C:\Users\hotru\AppData\Local\Microsoft\WindowsApps;C:\Users\hotru\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\hotru\go\bin;C:\Users\hotru\AppData\Roaming\Flow
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# environment
+ZES 
+_ENABLE_SYSMAN = 1
+# environment
+GOLANG_EXECUTABLE = go
+# makefile (from `makefile', line 5)
+MIGRATIONS_FOLDER = $(PWD)/platform/migrations
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# environment
+ONEDRIVE = C:\Users\hotru\OneDrive
+# environment
+THREE_SCALE_USER_TOKEN = 207c527cfc2a6b8dcf4fa43ad7a976da
+# environment
+USERPROFILE = C:\Users\hotru
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+GOPATH = C:\Users\hotru\go
+# environment
+VSCODE_LOG_STACK = false
+# environment
+NUMBER_OF_PROCESSORS = 8 
+
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives
+# environment
+UUID = c826f551-97d8-4f38-82ce-bb5f600a4d97
+# automatic
+%F = $(notdir $%)
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_2508_SHXHLJWVEGHBNXCG
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+COMPUTERNAME = KDSLAP
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+ASL.LOG = Destination=file
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERNAME = hotru
+# environment
+PUBLIC = C:\Users\Public
+# environment
+GOMODCACHE = C:\Users\hotru\go\pkg\mod
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\hotru\AppData\Roaming\Code\CachedData\30d9c6cd9483b2cc586687151bcbcd635f373630
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# environment
+LOGONSERVER = \\KDSLAP
+# environment
+TELEMETRY_ID = 709ba224-c497-43ae-8c0e-33cc73d46bdf
+# environment
+ONEDRIVECONSUMER = C:\Users\hotru\OneDrive
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+USERDOMAIN = KDSLAP
+# environment
+MIC_LD_LIBRARY_PATH = C:\Program Files (x86)\Common Files\Intel\Shared Libraries\compiler\lib\mic
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# makefile (from `makefile', line 4)
+BUILD_DIR = $(PWD)/build
+# default
+MAKE_VERSION := 3.81
+# makefile
+.DEFAULT_GOAL := clean
+# environment
+PROGRAM 
+FILES(X86) = C:\Program Files (x86)
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+LOCALAPPDATA = C:\Users\hotru\AppData\Local
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := make.exe
+# environment
+UTM_SOURCE = vscode
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+LANGUAGE = en_US
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 140 Stepping 1, GenuineIntel
+# environment
+OS = Windows_NT
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\106474da43b0b7106c2ba881ad3e5eec-1.68.1-main-sock
+# environment
+HOMEPATH = \Users\hotru
+# makefile (from `makefile', line 3)
+APP_NAME = apiserver
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+PROMPT = $P$G
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+INTEL_DEV_REDIST = C:\Program Files (x86)\Common Files\Intel\Share 
+d Libraries\
+# environment
+SYSTEMROOT = C:\Windows
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+RECOMMENDER_API_URL = https://gw.api.openshift.io//api/v2
+# automatic
++F = $(notdir $+)
+# environment
+APPDATA = C:\Users\hotru\AppData\Roaming
+# environment
+TEMP = C:\Users\hotru\AppData\Local\Temp
+# environment
+COMSPEC = C:\Windows\system32\cmd.exe
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+LC_ALL = C
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+SYSTEMDRIVE = C:
+# environment
+SESSIONNAME = Console
+# environment
+PROCESSOR_REVISION = 8c01
+# environment
+MAKELEVEL := 0
+# environment
+LANG = C
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# environment
+VSCODE_PID = 2508
+# environment
+USERDOMAIN_ROAMINGPROFILE = KDSLAP
+# variable set hash-table stats:
+# Load=111/1024=11%, Rehash=0, Collisions=16/131=12%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# C:\ngrok (key C:/ngrok, mtime 1654234472): 4 files, no impossibilities.
+# C:\Users\hotru\AppData\Local\Programs\Microsoft VS Code\bin (key C:/Users/hotru/AppData/Local/Programs/Microsoft VS Code/bin, mtime 1655316086): 4 files, no impossibilities.
+# C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler (key C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler, mtime 1649567127): 17 files, no impossibilities.
+# C:\Program Files\LLVM\bin (key C:/Program Files/LLVM/ 
+bin, mtime 1649574627): 120 files, no impossibilities.
+# C:\Program Files\Docker\Docker\resources\bin (key C:/Program Files/Docker/Docker/resources/bin, mtime 1650596578): 13 files, no impossibilities.
+# C:\Program Files\Go\bin (key C:/Program Files/Go/bin, mtime 1649542769): 4 files, no impossibilities.
+# C:\Windows\System32\WindowsPowerShell\v1.0\ (key C:/Windows/System32/WindowsPowerShell/v1.0/, mtime 1622898672): 30 files, no impossibilities.
+# C:\Windows\System32\Wbem (key C:/Windows/System32/Wbem, mti 
+me 1654108773): 170 files, no impossibilities.
+# . (key d:/Project/Self Project/FastShare/backend, mtime 1656254746): 20 files, no impossibilities.
+# C:\Users\hotru\AppData\Roaming\nvm (key C:/Users/hotru/AppData/Roaming/nvm, mtime 1649521662): 11 files, no impossibilities.
+# C:\Users\hotru\AppData\Roaming\Flow (key C:/Users/hotru/AppData/Roaming/Flow, mtime 1649573859): 3 files, no impossibilities.
+# C:\Program Files\dotnet\ (key C:/Program Files/dotnet/, mtime 1652410265): 8 files, no impossibilities.
+# C 
+:\Program Files\GitHub CLI\ (key C:/Program Files/GitHub CLI/, mtime 1649874257): 3 files, no impossibilities.
+# C:\Users\hotru\AppData\Local\Microsoft\WindowsApps (key C:/Users/hotru/AppData/Local/Microsoft/WindowsApps, mtime 1656124667): 41 files, no impossibilities.
+# C:\Program Files (x86)\glab (key C:/Program Files (x86)/glab, mtime 1650044979): 5 files, no impossibilities.
+# C:\Program Files\nodejs (key C:/Program Files/nodejs, mtime 1649521709): 28 files, no impossibilities.
+# C:\Windows\System32\Ope 
+nSSH\: could not be stat'd.
+# C:\Users\hotru\AppData\Local\Yarn\bin (key C:/Users/hotru/AppData/Local/Yarn/bin, mtime 1650045259): 4 files, no impossibilities.
+# C:\Users\hotru\go\bin (key C:/Users/hotru/go/bin, mtime 1656254561): 12 files, no impossibilities.
+# C:\Windows (key C:/Windows, mtime 1654108772): 114 files, no impossibilities.
+# C:\mongodb shell\bin (key C:/mongodb shell/bin, mtime 1655433492): 12 files, no impossibilities.
+# C:\ProgramData\DockerDesktop\version-bin: could not be stat'd.
+# C:\Pr 
+ogram Files\Git\cmd (key C:/Program Files/Git/cmd, mtime 1649541257): 8 files, no impossibilities.
+# C:\Windows\system32 (key C:/Windows/system32, mtime 1656243983): 2900 files, no impossibilities.
+# C:\Program Files (x86)\gsudo\ (key C:/Program Files (x86)/gsudo/, mtime 1649542675): 8 files, no impossibilities.
+# C:\proto\bin (key C:/proto/bin, mtime 1648245140): 3 files, no impossibilities.
+# C:\Program Files (x86)\GnuWin32\bin (key C:/Program Files (x86)/GnuWin32/bin, mtime 1649543342): 5 files, no impos 
+sibilities.
+
+# 3547 files, no impossibilities in 27 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+migrate.up:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 31):
+	migrate -path $(MIGRATIONS_FOLDER) -database "$(DATABASE_URL)" up
+	
+
+migrate.down:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `ma 
+kefile', line 34):
+	migrate -path $(MIGRATIONS_FOLDER) -database "$(DATABASE_URL)" down
+	
+
+# Not a target:
+all:
+#  Command-line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+docker.stop.redis:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 82):
+	docker stop cgapp-redis
+	 
+
+
+.PHONY: clean critic security lint test build run
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+test: clean critic security lint
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', l 
+ine 21):
+	go test -v -timeout 30s -coverprofile=cover.out -cover ./...
+	go tool cover -func=cover.out
+	
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-26 21:43:50
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+build: test
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (f 
+rom `makefile', line 25):
+	CGO_ENABLED=0 go build -ldflags="-w -s" -o $(BUILD_DIR)/$(APP_NAME) main.go
+	
+
+docker.run: docker.network docker.postgres swag docker.fiber docker.redis migrate.up
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+docker.fiber: docker.fiber.build
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 49):
+	docker run --rm - 
+d \
+	--name cgapp-fiber \
+	--network dev-network \
+	-p 5000:5000 \
+	fiber
+	
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+docker.network:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 42):
+	docker network inspect dev-network >/dev/null 2>&1 || \
+	docker network create -d bridge dev-network
+	
+
+run: swag build
+# 
+  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 28):
+	$(BUILD_DIR)/$(APP_NAME)
+	
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 9):
+	rm -rf ./build
+	
+
+docker.postgres:
+#  Implicit rule search has not been done.
+#  Modification tim 
+e never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 56):
+	docker run --rm -d \
+	--name cgapp-postgres \
+	--network dev-network \
+	-e POSTGRES_USER=postgres \
+	-e POSTGRES_PASSWORD=password \
+	-e POSTGRES_DB=postgres \
+	-v ${HOME}/dev-postgres/data/:/var/lib/postgresql/data \
+	-p 5432:5432 \
+	postgres
+	
+
+security:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to ex 
+ecute (from `makefile', line 15):
+	gosec ./...
+	
+
+docker.stop.fiber:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 76):
+	docker stop cgapp-fiber
+	
+
+migrate.force:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 37):
+	migrate -path $(MIGRATIONS_FOLDER) -database "$(DATABASE_URL)" force $(version) 
+
+	
+
+lint:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 18):
+	golangci-lint run ./...
+	
+
+swag:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 85):
+	swag init
+	
+
+docker.redis:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has 
+ not been updated.
+#  commands to execute (from `makefile', line 67):
+	docker run --rm -d \
+	--name cgapp-redis \
+	--network dev-network \
+	-p 6379:6379 \
+	redis
+	
+
+docker.fiber.build:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 46):
+	docker build -t fiber .
+	
+
+critic:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been u 
+pdated.
+#  commands to execute (from `makefile', line 12):
+	gocritic check -enableAll ./...
+	
+
+docker.stop.postgres:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 79):
+	docker stop cgapp-postgres
+	
+
+docker.stop: docker.stop.fiber docker.stop.postgres docker.stop.redis
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats 
+:
+# Load=26/1024=3%, Rehash=0, Collisions=0/61=0%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+# Finished Make data base on Sun Jun 26 21:45:48 2022
+
+ 
+make.exe: *** No rule to make target `all'.  Stop.
+

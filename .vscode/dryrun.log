@@ -1,0 +1,4 @@
+make.exe: Entering directory `d:/Project/Self Project/FastShare/backend'
+rm -rf ./build
+make.exe: Leaving directory `d:/Project/Self Project/FastShare/backend'
+ 
